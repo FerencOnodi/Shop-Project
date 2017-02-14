@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5163d399-4769-4304-a0ee-299f7f6efc07" name="Default" comment="" />
+    <list default="true" id="5163d399-4769-4304-a0ee-299f7f6efc07" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tej.java" afterPath="$PROJECT_DIR$/src/Tej.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +21,8 @@
       <file leaf-file-name="Tej.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tej.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state relative-caret-position="589">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding>
                 <element signature="e#667#668#0" expanded="true" />
                 <element signature="e#700#701#0" expanded="true" />
@@ -32,8 +34,6 @@
                 <element signature="e#914#915#0" expanded="true" />
                 <element signature="e#941#942#0" expanded="true" />
                 <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -513,12 +513,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487068085838</updated>
-      <workItem from="1487068088938" duration="1529000" />
+      <workItem from="1487068088938" duration="2402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1529000" />
+    <option name="totallyTimeSpent" value="2402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -567,8 +567,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Tej.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="589">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="e#667#668#0" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
@@ -580,8 +580,6 @@
             <element signature="e#914#915#0" expanded="true" />
             <element signature="e#941#942#0" expanded="true" />
             <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
           </folding>
         </state>
       </provider>

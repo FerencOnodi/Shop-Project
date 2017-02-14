@@ -45,6 +45,6 @@ public class Tej {
     }
 
     public String toString() {
-        return "";
+        return "" + getGyarto() + getUrtartalom() + getAr() + getSzavatossagiIdo() + getZsirtartalom();
     }
 }
