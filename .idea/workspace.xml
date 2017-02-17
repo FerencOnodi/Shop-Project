@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5163d399-4769-4304-a0ee-299f7f6efc07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tej.java" afterPath="$PROJECT_DIR$/src/Tej.java" />
-    </list>
+    <list default="true" id="5163d399-4769-4304-a0ee-299f7f6efc07" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +16,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tej.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tej.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tej.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -29,6 +27,16 @@
                 <element signature="e#1232#1233#0" expanded="true" />
                 <element signature="e#1332#1333#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TejFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TejFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/TartosTej.java" />
         <option value="$PROJECT_DIR$/src/FeltartosTej.java" />
         <option value="$PROJECT_DIR$/src/Tej.java" />
+        <option value="$PROJECT_DIR$/src/TejFactory.java" />
       </list>
     </option>
   </component>
@@ -570,12 +579,12 @@
       <updated>1487068085838</updated>
       <workItem from="1487068088938" duration="5814000" />
       <workItem from="1487152904534" duration="3060000" />
-      <workItem from="1487310469222" duration="3610000" />
+      <workItem from="1487310469222" duration="4156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12484000" />
+    <option name="totallyTimeSpent" value="13030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="365" width="1301" height="403" extended-state="0" />
@@ -691,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TartosTej.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FeltartosTej.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -717,6 +718,22 @@
             <element signature="e#1232#1233#0" expanded="true" />
             <element signature="e#1332#1333#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TartosTej.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TejFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
