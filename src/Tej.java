@@ -4,20 +4,19 @@ import java.util.Date;
  */
 public class Tej {
 
-    public long vonalKod;
     public final int LITER = 4;
     public final int FELLITER = 2;
     public final int POHAR = 1;
     public final double ZSIROS = 0.5;
     public final double FELZSIROS = 0.25;
 
+    protected Long vonalKod;
     protected int urtartalom;
     protected String gyarto;
     protected Date szavatossagiIdo;
     protected  double zsirtartalom;
-    protected long ar;
 
-    public Tej(long vonalKod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom) {
+    public Tej(Long vonalKod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom) {
         this.vonalKod = vonalKod;
         this.gyarto = gyarto;
         this.szavatossagiIdo = szavatossagiIdo;
