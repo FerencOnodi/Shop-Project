@@ -1,27 +1,24 @@
-import org.omg.CORBA.PRIVATE_MEMBER;
-
 import java.util.Date;
 /**
  * Created by ferenc on 2017.02.14..
  */
 public class Tej {
 
-    private long vonalKod;
-    private final int LITER = 4;
-    private final int FELLITER = 2;
-    private final int POHAR = 1;
-    private final double ZSIROS = 0.5;
-    private final double FELZSIROS = 0.25;
+    public long vonalKod;
+    public final int LITER = 4;
+    public final int FELLITER = 2;
+    public final int POHAR = 1;
+    public final double ZSIROS = 0.5;
+    public final double FELZSIROS = 0.25;
 
-    private int urtartalom;
-    private String gyarto;
-    private Date szavatossagiIdo;
-    private  double zsirtartalom;
-    private long ar;
+    protected int urtartalom;
+    protected String gyarto;
+    protected Date szavatossagiIdo;
+    protected  double zsirtartalom;
+    protected long ar;
 
-    public Tej(long vonalKod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom, long ar) {
+    public Tej(long vonalKod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom) {
         this.vonalKod = vonalKod;
-        this.ar = ar;
         this.gyarto = gyarto;
         this.szavatossagiIdo = szavatossagiIdo;
         this.urtartalom = urtartalom;
@@ -53,11 +50,7 @@ public class Tej {
         return zsirtartalom;
     }
 
-    public long getAr() {
-        return ar;
-    }
-
     public String toString() {
-        return "" + getGyarto() + getUrtartalom() + getAr() + getSzavatossagiIdo() + getZsirtartalom();
+        return "" + getGyarto() + getUrtartalom() + getSzavatossagiIdo() + getZsirtartalom();
     }
 }
