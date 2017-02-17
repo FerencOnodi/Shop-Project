@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5163d399-4769-4304-a0ee-299f7f6efc07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TejFactory.java" afterPath="$PROJECT_DIR$/src/TejFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sajt.java" afterPath="$PROJECT_DIR$/src/Sajt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tej.java" afterPath="$PROJECT_DIR$/src/Tej.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +22,13 @@
       <file leaf-file-name="Tej.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tej.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="32" column="45" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="522">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,22 +44,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sajt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sajt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sajt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
                 <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elelmiszer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Elelmiszer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,9 +157,10 @@
         <option value="$PROJECT_DIR$/src/Bolt.java" />
         <option value="$PROJECT_DIR$/src/TartosTej.java" />
         <option value="$PROJECT_DIR$/src/FeltartosTej.java" />
-        <option value="$PROJECT_DIR$/src/Tej.java" />
         <option value="$PROJECT_DIR$/src/TejFactory.java" />
+        <option value="$PROJECT_DIR$/src/Elelmiszer.java" />
         <option value="$PROJECT_DIR$/src/Sajt.java" />
+        <option value="$PROJECT_DIR$/src/Tej.java" />
       </list>
     </option>
   </component>
@@ -603,12 +624,12 @@
       <updated>1487068085838</updated>
       <workItem from="1487068088938" duration="5814000" />
       <workItem from="1487152904534" duration="3060000" />
-      <workItem from="1487310469222" duration="5839000" />
+      <workItem from="1487310469222" duration="6590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14713000" />
+    <option name="totallyTimeSpent" value="15464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="365" width="1301" height="403" extended-state="0" />
@@ -660,10 +681,10 @@
         <state relative-caret-position="540">
           <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,6 +717,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tej.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TejFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="93" lean-forward="true" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sajt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TartosTej.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FeltartosTej.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -724,58 +801,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TartosTej.java">
+    <entry file="file://$PROJECT_DIR$/src/Elelmiszer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FeltartosTej.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TejFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="93" lean-forward="true" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tej.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="32" column="45" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="252">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding>
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sajt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>

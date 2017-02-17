@@ -2,7 +2,7 @@ import java.util.Date;
 /**
  * Created by ferenc on 2017.02.14..
  */
-public abstract class Tej {
+public abstract class Tej extends Elelmiszer{
 
     public final int LITER = 4;
     public final int FELLITER = 2;
@@ -17,6 +17,7 @@ public abstract class Tej {
     protected  double zsirtartalom;
 
     public Tej(Long vonalKod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom) {
+        super(vonalKod, gyarto, szavatossagiIdo);
         this.vonalKod = vonalKod;
         this.gyarto = gyarto;
         this.szavatossagiIdo = szavatossagiIdo;
@@ -24,7 +25,7 @@ public abstract class Tej {
         this.zsirtartalom = zsirtartalom;
     }
 
-    public long getVonalKod() {
+    public Long getVonalKod() {
         return vonalKod;
     }
 
