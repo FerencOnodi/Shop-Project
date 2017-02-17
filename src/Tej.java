@@ -2,7 +2,7 @@ import java.util.Date;
 /**
  * Created by ferenc on 2017.02.14..
  */
-public class Tej {
+public abstract class Tej {
 
     public final int LITER = 4;
     public final int FELLITER = 2;
