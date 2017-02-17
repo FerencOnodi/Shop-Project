@@ -5,11 +5,11 @@ import java.util.Date;
  */
 public abstract class TejFactory {
 
-    public Tej ujTartosTej(Long vonalkod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom, long ar){
-        return new TartosTej;
+    public Tej ujTartosTej(Long vonalkod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom){
+        return new TartosTej(vonalkod, urtartalom, gyarto, szavatossagiIdo, zsirtartalom);
     }
 
-    public Tej ujFeltartosTej(Long vonalkod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom, long ar) {
-        return new FeltartosTej;
+    public Tej ujFeltartosTej(Long vonalkod, int urtartalom, String gyarto, Date szavatossagiIdo, double zsirtartalom) {
+        return new FeltartosTej(vonalkod, urtartalom, gyarto, szavatossagiIdo, zsirtartalom);
     }
 }
