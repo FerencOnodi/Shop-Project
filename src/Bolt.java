@@ -1,4 +1,5 @@
-import java.util.Vector;
+import java.util.Hashtable;
+import java.util.Map;
 
 /**
  * Created by ferenc on 2017.02.14..
@@ -8,10 +9,9 @@ public class Bolt {
     private String nev;
     private String cim;
     private String tulajdonos;
-    private Vector<Tej> tejpult;
-    private int flag;
+    private Hashtable<Long, Tej> tejpult;
 
-    public Bolt(String nev, String cim, String tulajdonos, Vector tejpult) {
+    public Bolt(String nev, String cim, String tulajdonos, Hashtable<Long, Tej> tejpult) {
         this.nev = nev;
         this.cim = cim;
         this.tulajdonos = tulajdonos;
@@ -40,17 +40,19 @@ public class Bolt {
         return !(tejpult.isEmpty());
     }
 
-    public Tej vasarolTej(Tej m) {
-        for (Tej tej : tejpult) {
-            if(tej.equals(m)){
-                (tejpult).remove(tej);
-                return tej;
+    public Tej vasarolTej(long vonalKod) {
+        while (tejpult.entrySet().iterator().hasNext()) {
+            Map.Entry<Long, Tej> entry = tejpult.entrySet().iterator().next();
+
+            if (entry.getKey().equals(vonalKod)) {
+                tejpult.remove(vonalKod);
+                return entry.getValue();
             }
         }
         return null;
     }
 
     public void feltoltTej(Tej m) {
-        (tejpult).add(m);
+        tejpult.put(m.getVonalKod(), m);
     }
 }
