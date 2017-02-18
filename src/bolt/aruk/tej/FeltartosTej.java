@@ -1,3 +1,7 @@
+package bolt.aruk.tej;
+
+import bolt.aruk.Tej;
+
 import java.util.Date;
 
 /**

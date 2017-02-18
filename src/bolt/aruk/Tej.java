@@ -1,3 +1,5 @@
+package bolt.aruk;
+
 import java.util.Date;
 /**
  * Created by ferenc on 2017.02.14..

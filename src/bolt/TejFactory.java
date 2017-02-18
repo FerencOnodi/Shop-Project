@@ -1,3 +1,9 @@
+package bolt;
+
+import bolt.aruk.tej.FeltartosTej;
+import bolt.aruk.tej.TartosTej;
+import bolt.aruk.Tej;
+
 import java.util.Date;
 
 /**
